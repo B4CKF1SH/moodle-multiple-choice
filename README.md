@@ -1,4 +1,4 @@
-# moodle-multiple-choice
+# Moodle Multiple Choice
 
 Lets you generate generate multiple-choice xml-Files to import into Moodle.
 
