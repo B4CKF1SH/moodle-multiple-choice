@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class to represent a Moodle feedback form, consisting of multiple items
+ * 
+ * @author MMC Team
+ *
+ */
 public class Feedback {
 	
 	//list of Questions
