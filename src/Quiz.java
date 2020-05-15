@@ -23,11 +23,10 @@ public class Quiz {
 		questions.add(q);
 	}
 	
-	
-	@Override
 	/**
 	 * Overriding toString() method to create XML
 	 */
+	@Override
 	public String toString() {
 		
 		//XML header
