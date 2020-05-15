@@ -7,19 +7,19 @@ public class Feedback {
 	private List<Item> items = new ArrayList<>();
 	
 	/**
-	 * Removes a question from the Quiz
-	 * @param index The index of the Question to remove
-	 * @return The removed Question
+	 * Removes an item from the Feedback
+	 * @param index The index of the Item to remove
+	 * @return The removed Item
 	 */
-	public Item removeQuestion(int index) {
+	public Item removeItem(int index) {
 		return items.remove(index);
 	}
 	
 	/**
-	 * Adds a question to the Quiz
-	 * @param q The Question to add
+	 * Adds an item to the Feeedback
+	 * @param q The Item to add
 	 */
-	public void addQuestion(Item q) {
+	public void addItem(Item q) {
 		items.add(q);
 	}
 
