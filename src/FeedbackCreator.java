@@ -3,6 +3,9 @@ import java.util.List;
 
 public class FeedbackCreator {
 	
+	/**
+	 * private constructor to hide default public one
+	 */
 	private FeedbackCreator() {}
 	
 	public static Feedback createLevelChoice(int numLevels,	String[] descriptions, String[] labels, String[] choices) {
@@ -22,7 +25,6 @@ public class FeedbackCreator {
 	
 	private static void addLevel(Feedback fb, int id, int previousId, String previousChoice, int levels, int currentlvl, String[] descriptions, String[] labels, String[] remainingChoices) {
 
-		
 		fb.addItem(new MultiChoice(id, descriptions[currentlvl-1], labels[currentlvl-1], remainingChoices, previousId, previousChoice));
 		
 		fb.addItem(new Pagebreak(id + 1));
