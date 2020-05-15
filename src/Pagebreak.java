@@ -1,6 +1,16 @@
 
+/**
+ * Class to represent a Moodle Pagebreak item
+ * 
+ * @author MMC Team
+ *
+ */
 public class Pagebreak extends Item {
 	
+	/**
+	 * Simple constructor - does this really need documentation?
+	 * @param id The Id of the Item 
+	 */
 	public Pagebreak(int id) {
 		super(id);
 	}
